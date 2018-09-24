@@ -1,0 +1,21 @@
+
+
+.wrapper-one{
+  margin-top: 1px;
+  min-height: 800px;
+  padding: 2% 5%;
+  background-image: url('./media/background_peak_two.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapper-two .row{
+  display: flex;
+  height: 800px;
+  padding: 0%;
+}
+.card{
+  width: 20%;
+  min-height: 300px;
+  margin: 5% 2%;
+}

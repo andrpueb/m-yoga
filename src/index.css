@@ -1,0 +1,54 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+header{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #fff;
+    font-family: 'Cinzel Decorative', serif;
+    transition: 0.4s;
+}
+
+nav{
+    display: flex;
+    background-color: #71D9CE;
+    color: #2B3A42;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    
+} 
+
+nav li a{
+    text-transform: lowercase !important;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: #D4F5DD;
+}
+
+nav li a:hover{
+}
+
+.wrapper-two{
+    margin: 250px auto 0;
+    z-index: 10;
+}
