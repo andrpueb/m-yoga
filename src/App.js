@@ -6,16 +6,21 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Contact from './components/Contact'
 import Classes from './components/Classes'
-import './App.css';
+import Blog from './components/Blog'
+import HomeHeader from './components/HomeHeader'
+import './App.scss';
 
 
 class App extends Component {
-  render(
-  ) {
+  render() {
     return (
       <BrowserRouter>
         <div className="App">
           <Navbar />
+          <Route exact path="/" component={Home} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/classes" component={Classes} />
+          <Route path="/blog" component={Blog} />
         </div>
       </BrowserRouter>
     );
